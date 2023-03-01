@@ -14,7 +14,6 @@ Human::Human(std::string n)
 char Human::makeMove()
 {
     std::string move;
-    std::cout << "Enter Move: ";
     getline(std::cin, move);
     return move[0];
 }
